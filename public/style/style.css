@@ -1,0 +1,187 @@
+body{
+    background-color: #333;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #282828 !important;
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+}
+
+.navbar-brand{
+    color: #39ca74 !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.slash{
+    color: white;
+}
+
+.nav-link{
+    color: white !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-link:hover{
+    color: #39ca74 !important;
+    transition: 0.1s !important;
+}
+
+
+/* About me */
+
+.jumbotron{
+    background-color: #333;
+    
+}
+
+.display-4{
+    color: #39ca74;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.lead{
+    color: #39ca74;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.lead a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.lead a:hover{
+    color: #39ca74 !important;
+    transition: 0.1s !important;
+}
+
+.rounded{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: -20px;
+}
+
+/* My skills */
+
+.skills{
+    background-color: #333;
+}
+
+.pteskills{
+    margin: 15px;
+}
+
+.skills h1{
+    text-align: center;
+    color: #39ca74;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li{
+    list-style: circle;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pteskills{
+    position: relative;
+    margin-left: 33%;
+}
+
+.row{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body{
+    background-color: #282828 !important;
+}
+
+.skills h5{
+    color: #39ca74;
+}
+
+.skills ul{
+    color: white;
+}
+
+/* My achievements */
+.achievement h1{
+    color: #39ca74;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card-header, .card-footer{
+    color: #39ca74;
+    background-color: #282828;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-body p{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn{
+    background-color: #39ca74 !important;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn:hover{
+    color: #39ca74;
+    background-color: white !important;
+}
+
+/* footer */
+.footer{
+    background-color: #282828;
+}
+
+.liens_pro{
+    margin-top: 15px;
+}
+
+.mail, .linkedin, .insta, .n{
+    width: 25px;
+    height: auto;
+    margin: 5px;
+}
+
+.p_mail, .p_linkedin, .p_insta, .p_cv{
+    color: #39ca74;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.roundeded{
+    width: 90px;
+    height: auto;
+    position: relative;
+    bottom: -15px;
+}
+
+.link_footer{
+    text-decoration: none !important;
+}
+
+.p_linkedin:hover{
+    color: white !important;
+}
+
+.p_insta:hover{
+    color: white !important;
+}
+
+.p_cv:hover{
+    color: white !important;
+}
